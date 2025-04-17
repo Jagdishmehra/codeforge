@@ -1,12 +1,31 @@
-# React + Vite
+### 1. gneral steps
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 2. Installation
 
-Currently, two official plugins are available:
+1. Download or clone this repository to your computer.
+2. Open a terminal and navigate to the project folder.
+3. Run the following command to install all the required dependencies:
+   npm install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 3. Running the Project
 
-## Expanding the ESLint configuration
+To start the project in development mode, run:
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This will start a local server. Open your browser and go to the URL shown in the terminal (usually `http://localhost:3000`).
+
+### 4. Building for Production
+
+To create a production-ready build of the project, run:
+
+npm run build
+
+## Technologies Used
+
+- **React**: For building the user interface.
+- **Redux**: For state management.
+- **TailwindCSS**: For styling.
+- **Vite**: For fast development and build tooling.
+
+fetched data from mock api https://dummyjson.com/products
+used react readux toolkit for store management as a global store

@@ -6,7 +6,6 @@ import Filters from './components/Filters';
 import SortDropdown from './components/SortDropdown';
 import Pagination from './components/Pagination';
 
-
 const App = () => {
   const dispatch = useDispatch();
   const { filteredProducts, loading, error } = useSelector((state) => state.products);
